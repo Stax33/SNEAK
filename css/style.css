@@ -98,3 +98,50 @@
 .carrinho{
     border: none;
 }
+
+.sneak-ultra-light {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    background: linear-gradient(270.06deg, #DADADA 20.97%, #9F9F9F 99.92%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+}
+
+.text-sneak-1 {
+    width: 330px;
+}
+
+.adicionar-ao-carrinho {
+    height: 50px;
+    width: 230px;
+    border: 2px solid #1F1F1F;
+    border-radius: 12px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.break {
+    width: 20px;
+    height: 20px;
+}
+
+.text-height {
+    font-family: Gilroy;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;    
+}
+
+.button-1 {
+}
