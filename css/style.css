@@ -1,3 +1,100 @@
-ul{
-    background: pink;
+.none-style {
+    list-style-type: none;
+}
+
+.none-decoretion {
+    text-decoration: none;
+}
+
+.nav-bar {
+    justify-content: start;
+    align-items: baseline;
+    display: flex;
+}
+
+.sneak {    
+    padding-right: 499px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+
+    display: flex;
+
+    color: #1F1F1F;
+}
+
+.masculino {
+    text-decoration: none;
+    padding-right: 32px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1F1F1F
+}
+
+.feminino {
+    text-decoration: none;
+    padding-right: 32px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1F1F1F
+}
+
+.novidades {
+    text-decoration: none;
+    padding-right: 32px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1F1F1F
+}
+
+.ofertas {
+    text-decoration: none;
+    padding-right: 32px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1F1F1F
+}
+
+.colecoes {
+    text-decoration: none;
+    padding-right: 145px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1F1F1F
+}
+
+.text {
+    color: #FFFFFF;
+    font-size: 95px;
+    position: absolute;
+}
+
+.lupa {
+    border: none;
+}
+
+.pesquisa{
+    padding-right: 41px;
+    border: none;
+}
+
+.carrinho{
+    border: none;
 }

@@ -1,31 +1,34 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>SNEAK.</title>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap">
 </head>
 <body>
-    <header" class="" id="" style="background-color: blue;">
-        <h1>SNEAK.</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Masculino</a></li>
-                <li><a href="#">Feminino</a></li>
-                <li><a href="#">Novidades</a></li>
-                <li><a href="#">Ofertas</a></li>
-                <li><a href="#">Coleções</a></li>
-            </ul>
-        </nav>
+    <header class="nav-bar">
+        <div class="sneak">
+            <img src="./img/SNEAK..png" alt="sneak"/>
+        </div>
         <div>
-            <input type="text" placeholder="Procurar">
-            <div>
-                <img src="img/Carrinho.png"/>
-            </div>
+            <ul class="nav-bar">
+                <li class="none-style"><a href="" class="masculino">Masculino</a></li>
+                <li class="none-style"><a href="" class="feminino">Feminino</a></li>
+                <li class="none-style"><a href="" class="novidades">Novidades</a></li>
+                <li class="none-style"><a href="" class="ofertas">Ofertas</a></li>
+                <li class="none-style"><a href="" class="colecoes">Coleções</a></li>
+            </ul>
+        </div>
+        <div>
+            <button class="lupa"><img src="./img/Vector.png"></button>
+            <input class="pesquisa" type="text" placeholder="Procurar">
+            <button class="carrinho"><img src="./img/Carrinho.png"/></button>
         </div>
     </header>
     <main>
@@ -33,7 +36,7 @@
             <div>
                 <h1>SNEAK.<br/>Ultra Light</h1>
                 <p>Os tênis SNEAK foram criados especificamente para treinos de circuito, seja para aulas fitness em casa ou para sua própria rotina de treinos.</p>
-                <button>Adicionar ao Carrinho</button>
+                <button>Adicionar ao Carrinho +</button>
             </div>
             <div>
                 <img src="./img/tenis.png" alt="tenis branco sneak"><img/>
@@ -81,12 +84,12 @@
             </div>
         </section>
         <aside>
-            <h3>
+            <h3 class="text">
                 CORRA<br>
                 COMO SE O MUNDO<br>
                 DEPENDESSE DE VOCÊ
             </h3>
-            <img src="./img/corredor.jpg" alt="Pessoa com tenis preto"/>
+            <img class="imagem" src="./img/corredor.jpg" alt="Pessoa com tenis preto"/>
         </aside>
         <section>
             <div>
@@ -95,7 +98,7 @@
             <form>
                 <h3>Entre em contato</h3>
                 <input type="text" placeholder="Nome"/>
-                <input type="text" placeholder="Email"/>
+                <input type="email" placeholder="Email"/>
                 <textarea placeholder="Comentarios"></textarea>
                 <label>
                     <input type="checkbox"/>
@@ -130,11 +133,12 @@
         <div>
             <h5>REDES SOCIAIS</h5>
             <ul>
-                <li><a href=""><img src="./images/Instagram.png" alt="Instagram"></a></li>
-                <li><a href=""><img src="./images/Facebook.png" alt="Facebook"></a></li>
-                <li><a href=""><img src="./images/Twitter.png" alt="Twitter"></a></li>
+                <li><a href=""><img src="./img/Instagram.png" alt="Instagram"></a></li>
+                <li><a href=""><img src="./img/Facebook.png" alt="Facebook"></a></li>
+                <li><a href=""><img src="./img/Twitter.png" alt="Twitter"></a></li>
             </ul>
         </div>
+        <h3>DESIGNED BY MENTORAMA</h3>
     </footer>
 </body>
 </html>
